@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            list-style: none;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* padding: 20px 5%; */
+            background-color: rgb(69, 24, 24);
+            /* flex-wrap: wrap; */
+            width: 100vw;
+            height: 50%;
+            margin-bottom: 1rem;
+        }
+
+        .header .navbar li {
+            display: inline-block;
+            padding: 20px 5%x;
+            border: solid white 1px;
+            padding: 2px 20px;
+        }
+
+        .header .navbar ul {
+            padding: 20px 20px;
+        }
+
+        .header .navbar ul li a {
+            color: white;
+            padding: 2px 5px;
+        }
+
+        .header .navbar ul li a:hover {
+            color: rgb(211, 151, 151);
+        }
+
+
+        .header .logo {
+            color: white;
+            cursor: pointer;
+            padding: 2px 20px;
+            font-size: x-large;
+            font-weight: 1000;
+        }
+
+        .header .logo:hover {
+            color: rgb(170, 170, 241);
+        }
+
+        .gridbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .footer p {
+            color: white;
+            padding: 2px;
+        }
+
+
+
+
+        @media only screen and (max-width:440px) {
+            body {
+                background-color: black;
+            }
+
+            .header .navbar ul li {
+                display: block;
+                font-size: 15px;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+
+            .header .navbar ul li a {
+                padding: 1px 1px;
+            }
+
+            .header .navbar ul {
+                padding: 6px 0px;
+                margin-left: 1px;
+            }
+
+            .header .navbar ul {
+                align-self: flex-end;
+            }
+
+            .gridbox {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                background-color: transparent;
+                justify-content: center;
+                align-items: center;
+                border: solid rgb(255, 0, 0) 20px dotted;
+                background-color: black;
+            }
+
+            .gridbox .box1 {
+                margin-top: 20px;
+                width: 300px;
+                border: 5px solid gray;
+                align-self: flex-start;
+                background-color: black;
+            }
+
+            .gridbox .box2 {
+                width: 300px;
+                border: 5px solid gray;
+                align-self: center;
+                background-color: black;
+            }
+
+            .gridbox .box3 {
+                width: 300px;
+                border: 5px solid gray;
+                align-self: flex-end;
+                background-color: black;
+            }
+
+            .footer {
+                height: 10px;
+                width: auto;
+                background-color: rgb(0, 0, 0);
+            }
+
+            .footer p {
+                padding: 2px;
+            }
+        }
+
+        @media only screen and (min-device-width:640px) {
+            .header .navbar {
+                background-color: rgb(64, 17, 17);
+                display: flex;
+                justify-content: space-between;
+            }
+            
+
+            body {
+                background-color: black;
+            }
+
+            .gridbox {
+                gap: 10px;
+                background-color: black;
+            }
+
+            .header .navbar ul li {
+                display: inline;
+                align-self: flex-end;
+            }
+
+            .gridbox .box1 img {
+                height: 200px;
+                width: 200px;
+                border: 4px gray solid;
+            }
+
+            .gridbox .box2 img {
+                height: 200px;
+                width: 200px;
+                border: 4px gray solid;
+
+            }
+
+            .gridbox .box3 img {
+                height: 200px;
+                width: 200px;
+                border: 4px gray solid;
+
+            }
+
+            .footer {
+                height: auto;
+                width: auto;
+                padding: 10px;
+            }
+
+            .footer p {
+                padding: 0px;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">Home</div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="gridbox">
+        <div class="box1"><img src="/Photo/lady.png" height="300px" width="300px" alt="#"></div>
+        <div class="box2"><img src="/Photo/lady.png" height="300px" width="300px" alt="#"></div>
+        <div class="box3"><img src="/Photo/lady.png" height="300px" width="300px" alt="#"></div>
+    </div>
+    <div class="footer">
+        <p>Copyright&copy;From SautaBoy</p>
+    </div>
+</body>
+
+</html>
