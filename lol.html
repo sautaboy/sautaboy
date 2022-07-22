@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+
+
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            list-style: none;
+            height: 60px;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 30px;
+            color: white;
+            letter-spacing: 10px;
+            font-weight: bold;
+            padding-left: 20px;
+        }
+
+        .navitems ul li {
+            float: left;
+            padding: 10px 30px;
+            position: relative;
+        }
+
+        .navitems ul li a {
+            color: white;
+            letter-spacing: 5px;
+            font-weight: bold;
+
+        }
+
+        .navitems ul li a:hover {
+            color: bisque;
+        }
+
+        .navitems ul li ul {
+            display: none;
+            position: absolute;
+            background-color: rgb(0, 0, 0);
+            width: 160px;
+            margin: 10px 20px;
+            margin-left: -5px;
+            border-radius: 0 0 0px 10px;
+        }
+
+        .navitems ul li:hover ul {
+            display: block;
+        }
+
+        .navitems ul ul ul {
+            margin-left: 120px;
+            top: 0px;
+            /* display: none; */
+            position: relative;
+
+        }
+
+        .navitems ul ul li:hover ul {
+            display: block;
+            position: absolute;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">Logo</div>
+        <div class="navitems">
+            <ul>
+                <li><a href="#">Products</a>
+                    <ul>
+                        <li><a href="#">Tea</a></li>
+                        <li><a href="#">Coffee</a>
+                            <ul>
+                                <li><a href="#">Black Coffee</a></li>
+                                <li><a href="#">White Coffee</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Drinks</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Offer</a>
+                    <ul>
+                        <li><a href="#">Ghanta</a></li>
+                        <li><a href="#">Ko</a></li>
+                        <li><a href="#">Offer</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Services</a>
+                    <ul>
+                        <li><a href="#">Ghanta</a></li>
+                        <li><a href="#">Ko</a></li>
+                        <li><a href="#">Services</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
