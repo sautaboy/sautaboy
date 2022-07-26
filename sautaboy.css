@@ -33,7 +33,7 @@ body {
 
 
 .backgroundimage {
-    background-image: url(/sauta.JPG);
+    background-image: url(/sautaboy.JPG);
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ body {
     }
 
     .backgroundimage {
-        background-image: url(/sauta.JPG);
+        background-image: url(/sautaboy.JPG);
         height: 800px;
         width: 100%;
         background-repeat: no-repeat;
@@ -191,7 +191,7 @@ body {
 
 
     .backgroundimage {
-        background-image: url(/sauta.JPG);
+        background-image: url(/sautaboy.JPG);
         width: 40%;
         background-repeat: no-repeat;
         background-position: center;
