@@ -1,6 +1,5 @@
 <h1 align="center">Hi 👋, I'm sautaboy aka Ashok Giri</h1>
 <h3 align="center">"Building beauty with React: Code simplicity, frontend magic."</h3>
-<img align=“right” width=400 alt=“running”  src="[https://t3.ftcdn.net/jpg/04/42/64/64/360_F_442646431_DsDOW2wlXl6JhZCxxDr7afMgUFOkjaW1.jpg](https://user-images.githubusercontent.com/14011726/jpeg)">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sautaboy&label=Profile%20views&color=0e75b6&style=flat" alt="sautaboy" /> </p>
 
